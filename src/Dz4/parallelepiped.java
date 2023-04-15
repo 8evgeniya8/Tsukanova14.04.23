@@ -5,7 +5,7 @@ public class parallelepiped {
         int zminna1 = 4;
         int zminna2 = 8;
         int zminna3 = 12;
-        int length=zminna1*zminna2*zminna3;
+        int length=(zminna1+zminna2+zminna3)*4;
         int volume=length;
     System.out.println("Об'єм паралелепіпеда = " + volume);
     }
